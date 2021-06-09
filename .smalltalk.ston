@@ -10,7 +10,8 @@ SmalltalkCISpec {
   ],
   #testing : {
       #include : {
-      #packages : [ 'ciCrash' ]
+      #packages : [ 'CICrash' ],
+      #classes : ['CICrashTest']
     }
   }
 }
