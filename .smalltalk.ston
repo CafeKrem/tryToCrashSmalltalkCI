@@ -1,0 +1,16 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'CICrash',
+      #directory : 'src',
+      #platforms : [ #pharo],
+      #onConflict : #useIncoming,
+      #onUpgrade : #useIncoming
+    }
+  ],
+  #testing : {
+      #include : {
+      #packages : [ 'ciCrash' ]
+    }
+  }
+}
