@@ -10,5 +10,10 @@ CICrashTest >> testFail [
 ]
 
 { #category : #tests }
+CICrashTest >> testNil [
+	self assert: nil ciCrashed
+]
+
+{ #category : #tests }
 CICrashTest >> testWin [
 ]
