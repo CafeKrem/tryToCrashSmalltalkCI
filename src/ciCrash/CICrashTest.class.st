@@ -5,5 +5,10 @@ Class {
 }
 
 { #category : #tests }
+CICrashTest >> testFail [
+	self fail
+]
+
+{ #category : #tests }
 CICrashTest >> testWin [
 ]
